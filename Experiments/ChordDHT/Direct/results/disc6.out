@@ -1,0 +1,76 @@
+INFO:root:Main - acquire a child logger and then log messages in the child
+INFO:DiscoveryAppln:DiscoveryAppln::configure
+INFO:DiscoveryAppln:DiscoveryMW::configure
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.10', 'hash': 6901241367425, 'host': 'h10', 'id': 'disc13', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc13 with connection tcp://10.0.0.10:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.15', 'hash': 251815652189326, 'host': 'h15', 'id': 'disc3', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc3 with connection tcp://10.0.0.15:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.7', 'hash': 105587494618550, 'host': 'h7', 'id': 'disc12', 'port': 5556}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc12 with connection tcp://10.0.0.7:5556
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.18', 'hash': 236076491003273, 'host': 'h18', 'id': 'disc4', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc4 with connection tcp://10.0.0.18:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure completed
+INFO:DiscoveryAppln:DiscoveryAppln::configure - configuration complete
+INFO:DiscoveryAppln:DiscoveryAppln::driver
+INFO:DiscoveryAppln:**********************************
+INFO:DiscoveryAppln:DiscoveryAppln::dump
+INFO:DiscoveryAppln:------------------------------
+INFO:DiscoveryAppln:     Name: disc6
+INFO:DiscoveryAppln:     Num Publishers: 5
+INFO:DiscoveryAppln:     Num Subscribers: : 5
+INFO:DiscoveryAppln:**********************************
+INFO:Chord.chordutils:**************************************************
+INFO:Chord.chordutils:Finger Table for Node: disc6, 209666935962955
+INFO:Chord.chordutils:--------------------------------------------------
+INFO:Chord.chordutils:Index  Start                 Successor 
+INFO:Chord.chordutils:-----+--------------------+----------
+INFO:Chord.chordutils:0      209666935962956       disc4     
+INFO:Chord.chordutils:1      209666935962957       disc4     
+INFO:Chord.chordutils:2      209666935962959       disc4     
+INFO:Chord.chordutils:3      209666935962963       disc4     
+INFO:Chord.chordutils:4      209666935962971       disc4     
+INFO:Chord.chordutils:5      209666935962987       disc4     
+INFO:Chord.chordutils:6      209666935963019       disc4     
+INFO:Chord.chordutils:7      209666935963083       disc4     
+INFO:Chord.chordutils:8      209666935963211       disc4     
+INFO:Chord.chordutils:9      209666935963467       disc4     
+INFO:Chord.chordutils:10     209666935963979       disc4     
+INFO:Chord.chordutils:11     209666935965003       disc4     
+INFO:Chord.chordutils:12     209666935967051       disc4     
+INFO:Chord.chordutils:13     209666935971147       disc4     
+INFO:Chord.chordutils:14     209666935979339       disc4     
+INFO:Chord.chordutils:15     209666935995723       disc4     
+INFO:Chord.chordutils:16     209666936028491       disc4     
+INFO:Chord.chordutils:17     209666936094027       disc4     
+INFO:Chord.chordutils:18     209666936225099       disc4     
+INFO:Chord.chordutils:19     209666936487243       disc4     
+INFO:Chord.chordutils:20     209666937011531       disc4     
+INFO:Chord.chordutils:21     209666938060107       disc4     
+INFO:Chord.chordutils:22     209666940157259       disc4     
+INFO:Chord.chordutils:23     209666944351563       disc4     
+INFO:Chord.chordutils:24     209666952740171       disc4     
+INFO:Chord.chordutils:25     209666969517387       disc4     
+INFO:Chord.chordutils:26     209667003071819       disc4     
+INFO:Chord.chordutils:27     209667070180683       disc4     
+INFO:Chord.chordutils:28     209667204398411       disc4     
+INFO:Chord.chordutils:29     209667472833867       disc4     
+INFO:Chord.chordutils:30     209668009704779       disc4     
+INFO:Chord.chordutils:31     209669083446603       disc4     
+INFO:Chord.chordutils:32     209671230930251       disc4     
+INFO:Chord.chordutils:33     209675525897547       disc4     
+INFO:Chord.chordutils:34     209684115832139       disc4     
+INFO:Chord.chordutils:35     209701295701323       disc4     
+INFO:Chord.chordutils:36     209735655439691       disc4     
+INFO:Chord.chordutils:37     209804374916427       disc4     
+INFO:Chord.chordutils:38     209941813869899       disc4     
+INFO:Chord.chordutils:39     210216691776843       disc4     
+INFO:Chord.chordutils:40     210766447590731       disc4     
+INFO:Chord.chordutils:41     211865959218507       disc4     
+INFO:Chord.chordutils:42     214064982474059       disc4     
+INFO:Chord.chordutils:43     218463028985163       disc4     
+INFO:Chord.chordutils:44     227259122007371       disc4     
+INFO:Chord.chordutils:45     244851308051787       disc3     
+INFO:Chord.chordutils:46     280035680140619       disc13    
+INFO:Chord.chordutils:47     68929447607627        disc12    
+INFO:Chord.chordutils:**************************************************
+INFO:DiscoveryAppln:DiscoveryMW::event_loop - run the event loop

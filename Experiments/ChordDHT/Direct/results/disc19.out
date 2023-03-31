@@ -1,0 +1,78 @@
+INFO:root:Main - acquire a child logger and then log messages in the child
+INFO:DiscoveryAppln:DiscoveryAppln::configure
+INFO:DiscoveryAppln:DiscoveryMW::configure
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.8', 'hash': 174624560160268, 'host': 'h8', 'id': 'disc15', 'port': 5556}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc15 with connection tcp://10.0.0.8:5556
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.18', 'hash': 236076491003273, 'host': 'h18', 'id': 'disc4', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc4 with connection tcp://10.0.0.18:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.17', 'hash': 155651283163470, 'host': 'h17', 'id': 'disc14', 'port': 5557}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc14 with connection tcp://10.0.0.17:5557
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.8', 'hash': 201944431810404, 'host': 'h8', 'id': 'disc20', 'port': 5558}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc20 with connection tcp://10.0.0.8:5558
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.6', 'hash': 20808082890790, 'host': 'h6', 'id': 'disc7', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc7 with connection tcp://10.0.0.6:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure completed
+INFO:DiscoveryAppln:DiscoveryAppln::configure - configuration complete
+INFO:DiscoveryAppln:DiscoveryAppln::driver
+INFO:DiscoveryAppln:**********************************
+INFO:DiscoveryAppln:DiscoveryAppln::dump
+INFO:DiscoveryAppln:------------------------------
+INFO:DiscoveryAppln:     Name: disc19
+INFO:DiscoveryAppln:     Num Publishers: 5
+INFO:DiscoveryAppln:     Num Subscribers: : 5
+INFO:DiscoveryAppln:**********************************
+INFO:Chord.chordutils:**************************************************
+INFO:Chord.chordutils:Finger Table for Node: disc19, 148822090860454
+INFO:Chord.chordutils:--------------------------------------------------
+INFO:Chord.chordutils:Index  Start                 Successor 
+INFO:Chord.chordutils:-----+--------------------+----------
+INFO:Chord.chordutils:0      148822090860455       disc14    
+INFO:Chord.chordutils:1      148822090860456       disc14    
+INFO:Chord.chordutils:2      148822090860458       disc14    
+INFO:Chord.chordutils:3      148822090860462       disc14    
+INFO:Chord.chordutils:4      148822090860470       disc14    
+INFO:Chord.chordutils:5      148822090860486       disc14    
+INFO:Chord.chordutils:6      148822090860518       disc14    
+INFO:Chord.chordutils:7      148822090860582       disc14    
+INFO:Chord.chordutils:8      148822090860710       disc14    
+INFO:Chord.chordutils:9      148822090860966       disc14    
+INFO:Chord.chordutils:10     148822090861478       disc14    
+INFO:Chord.chordutils:11     148822090862502       disc14    
+INFO:Chord.chordutils:12     148822090864550       disc14    
+INFO:Chord.chordutils:13     148822090868646       disc14    
+INFO:Chord.chordutils:14     148822090876838       disc14    
+INFO:Chord.chordutils:15     148822090893222       disc14    
+INFO:Chord.chordutils:16     148822090925990       disc14    
+INFO:Chord.chordutils:17     148822090991526       disc14    
+INFO:Chord.chordutils:18     148822091122598       disc14    
+INFO:Chord.chordutils:19     148822091384742       disc14    
+INFO:Chord.chordutils:20     148822091909030       disc14    
+INFO:Chord.chordutils:21     148822092957606       disc14    
+INFO:Chord.chordutils:22     148822095054758       disc14    
+INFO:Chord.chordutils:23     148822099249062       disc14    
+INFO:Chord.chordutils:24     148822107637670       disc14    
+INFO:Chord.chordutils:25     148822124414886       disc14    
+INFO:Chord.chordutils:26     148822157969318       disc14    
+INFO:Chord.chordutils:27     148822225078182       disc14    
+INFO:Chord.chordutils:28     148822359295910       disc14    
+INFO:Chord.chordutils:29     148822627731366       disc14    
+INFO:Chord.chordutils:30     148823164602278       disc14    
+INFO:Chord.chordutils:31     148824238344102       disc14    
+INFO:Chord.chordutils:32     148826385827750       disc14    
+INFO:Chord.chordutils:33     148830680795046       disc14    
+INFO:Chord.chordutils:34     148839270729638       disc14    
+INFO:Chord.chordutils:35     148856450598822       disc14    
+INFO:Chord.chordutils:36     148890810337190       disc14    
+INFO:Chord.chordutils:37     148959529813926       disc14    
+INFO:Chord.chordutils:38     149096968767398       disc14    
+INFO:Chord.chordutils:39     149371846674342       disc14    
+INFO:Chord.chordutils:40     149921602488230       disc14    
+INFO:Chord.chordutils:41     151021114116006       disc14    
+INFO:Chord.chordutils:42     153220137371558       disc14    
+INFO:Chord.chordutils:43     157618183882662       disc15    
+INFO:Chord.chordutils:44     166414276904870       disc15    
+INFO:Chord.chordutils:45     184006462949286       disc20    
+INFO:Chord.chordutils:46     219190835038118       disc4     
+INFO:Chord.chordutils:47     8084602505126         disc7     
+INFO:Chord.chordutils:**************************************************
+INFO:DiscoveryAppln:DiscoveryMW::event_loop - run the event loop

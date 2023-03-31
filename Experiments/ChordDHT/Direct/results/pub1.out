@@ -1,0 +1,24 @@
+INFO:root:Main - acquire a child logger and then log messages in the child
+INFO:PublisherAppln:PublisherAppln::configure
+INFO:PublisherAppln:PublisherAppln::configure - discovery set to {'id': 'disc13', 'hash': 6901241367425, 'IP': '10.0.0.10', 'port': 5555, 'host': 'h10'} - 10.0.0.10:5555
+INFO:PublisherAppln:PublisherMW::configure
+INFO:PublisherAppln:BrokerMW::configure - connected to Discovery service - tcp://10.0.0.10:5555
+INFO:PublisherAppln:PublisherMW::configure completed
+INFO:PublisherAppln:PublisherAppln::configure - configuration complete
+INFO:PublisherAppln:PublisherAppln::driver
+INFO:PublisherAppln:**********************************
+INFO:PublisherAppln:PublisherAppln::dump
+INFO:PublisherAppln:------------------------------
+INFO:PublisherAppln:     Name: pub1
+INFO:PublisherAppln:     Port: 5577
+INFO:PublisherAppln:     Lookup: Centralized
+INFO:PublisherAppln:     Dissemination: Direct
+INFO:PublisherAppln:     Num Topics: 5
+INFO:PublisherAppln:     TopicList: ['altitude', 'airquality', 'location', 'weather', 'light']
+INFO:PublisherAppln:     Iterations: 1000
+INFO:PublisherAppln:     Frequency: 1
+INFO:PublisherAppln:**********************************
+INFO:PublisherAppln:PublisherMW::event_loop - run the event loop
+INFO:PublisherAppln:PublisherAppln::invoke_operation
+INFO:PublisherAppln:PublisherMW::register
+INFO:PublisherAppln:PublisherMW::register - sent register message and now now wait for reply

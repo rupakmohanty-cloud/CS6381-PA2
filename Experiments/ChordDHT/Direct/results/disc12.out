@@ -1,0 +1,85 @@
+INFO:root:Main - acquire a child logger and then log messages in the child
+INFO:DiscoveryAppln:DiscoveryAppln::configure
+INFO:DiscoveryAppln:DiscoveryMW::configure
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.7', 'hash': 112287094529095, 'host': 'h7', 'id': 'disc8', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc8 with connection tcp://10.0.0.7:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.15', 'hash': 251815652189326, 'host': 'h15', 'id': 'disc3', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc3 with connection tcp://10.0.0.15:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.17', 'hash': 128828089648825, 'host': 'h17', 'id': 'disc5', 'port': 5556}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc5 with connection tcp://10.0.0.17:5556
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.16', 'hash': 179284730639870, 'host': 'h16', 'id': 'disc9', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc9 with connection tcp://10.0.0.16:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure successor- {'IP': '10.0.0.17', 'hash': 141339439372219, 'host': 'h17', 'id': 'disc1', 'port': 5555}
+INFO:DiscoveryAppln:DiscoveryMW::configure - adding dealer for disc1 with connection tcp://10.0.0.17:5555
+INFO:DiscoveryAppln:DiscoveryMW::configure completed
+INFO:DiscoveryAppln:DiscoveryAppln::configure - configuration complete
+INFO:DiscoveryAppln:DiscoveryAppln::driver
+INFO:DiscoveryAppln:**********************************
+INFO:DiscoveryAppln:DiscoveryAppln::dump
+INFO:DiscoveryAppln:------------------------------
+INFO:DiscoveryAppln:     Name: disc12
+INFO:DiscoveryAppln:     Num Publishers: 5
+INFO:DiscoveryAppln:     Num Subscribers: : 5
+INFO:DiscoveryAppln:**********************************
+INFO:Chord.chordutils:**************************************************
+INFO:Chord.chordutils:Finger Table for Node: disc12, 105587494618550
+INFO:Chord.chordutils:--------------------------------------------------
+INFO:Chord.chordutils:Index  Start                 Successor 
+INFO:Chord.chordutils:-----+--------------------+----------
+INFO:Chord.chordutils:0      105587494618551       disc8     
+INFO:Chord.chordutils:1      105587494618552       disc8     
+INFO:Chord.chordutils:2      105587494618554       disc8     
+INFO:Chord.chordutils:3      105587494618558       disc8     
+INFO:Chord.chordutils:4      105587494618566       disc8     
+INFO:Chord.chordutils:5      105587494618582       disc8     
+INFO:Chord.chordutils:6      105587494618614       disc8     
+INFO:Chord.chordutils:7      105587494618678       disc8     
+INFO:Chord.chordutils:8      105587494618806       disc8     
+INFO:Chord.chordutils:9      105587494619062       disc8     
+INFO:Chord.chordutils:10     105587494619574       disc8     
+INFO:Chord.chordutils:11     105587494620598       disc8     
+INFO:Chord.chordutils:12     105587494622646       disc8     
+INFO:Chord.chordutils:13     105587494626742       disc8     
+INFO:Chord.chordutils:14     105587494634934       disc8     
+INFO:Chord.chordutils:15     105587494651318       disc8     
+INFO:Chord.chordutils:16     105587494684086       disc8     
+INFO:Chord.chordutils:17     105587494749622       disc8     
+INFO:Chord.chordutils:18     105587494880694       disc8     
+INFO:Chord.chordutils:19     105587495142838       disc8     
+INFO:Chord.chordutils:20     105587495667126       disc8     
+INFO:Chord.chordutils:21     105587496715702       disc8     
+INFO:Chord.chordutils:22     105587498812854       disc8     
+INFO:Chord.chordutils:23     105587503007158       disc8     
+INFO:Chord.chordutils:24     105587511395766       disc8     
+INFO:Chord.chordutils:25     105587528172982       disc8     
+INFO:Chord.chordutils:26     105587561727414       disc8     
+INFO:Chord.chordutils:27     105587628836278       disc8     
+INFO:Chord.chordutils:28     105587763054006       disc8     
+INFO:Chord.chordutils:29     105588031489462       disc8     
+INFO:Chord.chordutils:30     105588568360374       disc8     
+INFO:Chord.chordutils:31     105589642102198       disc8     
+INFO:Chord.chordutils:32     105591789585846       disc8     
+INFO:Chord.chordutils:33     105596084553142       disc8     
+INFO:Chord.chordutils:34     105604674487734       disc8     
+INFO:Chord.chordutils:35     105621854356918       disc8     
+INFO:Chord.chordutils:36     105656214095286       disc8     
+INFO:Chord.chordutils:37     105724933572022       disc8     
+INFO:Chord.chordutils:38     105862372525494       disc8     
+INFO:Chord.chordutils:39     106137250432438       disc8     
+INFO:Chord.chordutils:40     106687006246326       disc8     
+INFO:Chord.chordutils:41     107786517874102       disc8     
+INFO:Chord.chordutils:42     109985541129654       disc8     
+INFO:Chord.chordutils:43     114383587640758       disc5     
+INFO:Chord.chordutils:44     123179680662966       disc5     
+INFO:Chord.chordutils:45     140771866707382       disc1     
+INFO:Chord.chordutils:46     175956238796214       disc9     
+INFO:Chord.chordutils:47     246324982973878       disc3     
+INFO:Chord.chordutils:**************************************************
+INFO:DiscoveryAppln:DiscoveryMW::event_loop - run the event loop
+INFO:DiscoveryAppln:DiscoveryMW::event_loop - router received event
+INFO:DiscoveryAppln:DiscoveryMW::handle_request
+INFO:DiscoveryAppln:DiscoveryMW::handle_request - register - rcv_parts: [b'disc13', b'\x00k\x8bEg', b'', b'\x08\x01\x12G\x08\x01\x12\x13\n\x04pub1\x12\x0810.0.0.8\x18\xc9+\x1a\x08altitude\x1a\nairquality\x1a\x08location\x1a\x07weather\x1a\x05light']
+INFO:DiscoveryAppln:DiscoveryMW::handle_request - register - bytesRcvd: b'\x08\x01\x12G\x08\x01\x12\x13\n\x04pub1\x12\x0810.0.0.8\x18\xc9+\x1a\x08altitude\x1a\nairquality\x1a\x08location\x1a\x07weather\x1a\x05light'
+INFO:DiscoveryAppln:DiscoveryMW::find_successor - start key 118226263736116
+INFO:DiscoveryAppln:DiscoveryMW::__closest_preceding_node - start key 118226263736116
+INFO:DiscoveryAppln:DiscoveryMW::__closest_preceding_node - successor: {'id': 'disc8', 'hash': 112287094529095, 'IP': '10.0.0.7', 'port': 5555, 'host': 'h7'}

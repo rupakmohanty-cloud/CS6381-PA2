@@ -1,0 +1,6 @@
+DHT = 'dht'
+ID = 'id'
+HASH = 'hash'
+IP = 'IP'
+PORT = 'port'
+HOST = 'host'
